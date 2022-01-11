@@ -1,0 +1,15 @@
+.booking-button {
+  width: 15vw;
+  border-radius: 0% !important;
+  transition: 0.5s ease-in-out !important;
+}
+.booking-button:hover {
+  background-color: white !important;
+  color: rgb(23, 23, 129);
+  font-weight: 700 !important;
+  font-family: inherit;
+
+  font-size: inherit;
+  transform: scaleX(1);
+  border-radius: 10px !important;
+}

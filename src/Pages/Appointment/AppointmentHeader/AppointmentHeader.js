@@ -18,7 +18,7 @@ const verticalCenter = {
   height: "80vh",
 };
 
-const AppointmentHeader = () => {
+const AppointmentHeader = ({ date, setDate }) => {
   return (
     <Box style={bannerBg} sx={{ flexGrow: 1 }}>
       <Grid container spacing={2}>
@@ -29,7 +29,7 @@ const AppointmentHeader = () => {
           style={{ ...verticalCenter, textAlign: "left" }}
         >
           <Box style={{ marginLeft: "25%" }}>
-            <Calender></Calender>
+            <Calender date={date} setDate={setDate}></Calender>
           </Box>
         </Grid>
         <Grid item xs={12} md={6} style={verticalCenter}>
